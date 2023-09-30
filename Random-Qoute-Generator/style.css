@@ -20,7 +20,7 @@ body{
 }
 
 .header{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: solid 2px #ffff;
     color: #fff;
     background-color: #262626;
@@ -29,3 +29,41 @@ body{
     margin: 20px auto;
     border-radius: 5px;
 }
+
+.main-content{
+    background-color: #ffff;
+    height: 300px;
+    width: 100%;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+}
+
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: rgb(183, 57, 57);
+    text-transform: uppercase;
+    
+}
+
+.button-area button{
+    color: #ffff;
+    background-color: #262626;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+};
+
+.button-area button:active {
+    background-color: lightblue;
+    color: #262626;
+};
